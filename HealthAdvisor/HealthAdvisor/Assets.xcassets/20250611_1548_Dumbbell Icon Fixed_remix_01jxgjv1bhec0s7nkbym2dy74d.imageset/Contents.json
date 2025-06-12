@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "20250611_1548_Dumbbell Icon Fixed_remix_01jxgjv1bhec0s7nkbym2dy74d.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
