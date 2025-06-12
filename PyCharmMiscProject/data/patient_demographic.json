@@ -1,0 +1,26 @@
+{
+  "patient": {
+    "firstName": "Michael",
+    "lastName": "Rodriguez",
+    "dateOfBirth": "1993-03-28",
+    "sex": "Male",
+    "contactNumber": "312-555-9876",
+    "height": {
+      "value": 175,
+      "unit": "cm"
+    },
+    "weight": {
+      "value": 82,
+      "unit": "kg"
+    },
+    "maritalStatus": "Single",
+    "address": {
+      "street": "847 Oak Avenue",
+      "city": "Portland",
+      "state": "OR",
+      "zipCode": "97201",
+      "country": "USA"
+    },
+    "email": "m.rodriguez93@email.com"
+  }
+}

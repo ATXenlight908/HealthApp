@@ -1,0 +1,145 @@
+{
+  "patientHealthProfile": {
+    "patientId": "P789512",
+    "medications": {
+      "currentMedications": [
+        {
+          "name": "Atorvastatin",
+          "dosage": "40mg",
+          "frequency": "Once daily",
+          "purpose": "Cholesterol Management",
+          "prescribedBy": "Dr. Emily Roberts",
+          "startDate": "2023-11-03",
+          "endDate": null,
+          "instructions": "Take at bedtime",
+          "sideEffects": ["Muscle pain", "Fatigue"],
+          "pharmacy": {
+            "name": "RiteAid Pharmacy",
+            "phone": "555-123-4567",
+            "address": "543 Pine St, Portland, OR 97201"
+          }
+        },
+        {
+          "name": "Sertraline",
+          "dosage": "75mg",
+          "frequency": "Once daily",
+          "purpose": "Anxiety Management",
+          "prescribedBy": "Dr. James Wilson",
+          "startDate": "2023-08-15",
+          "endDate": null,
+          "instructions": "Take in the morning with food",
+          "sideEffects": ["Drowsiness", "Headache"],
+          "pharmacy": {
+            "name": "HealthMart",
+            "phone": "555-987-6543",
+            "address": "789 Maple Ave, Portland, OR 97201"
+          }
+        }
+      ],
+      "pastMedications": [
+        {
+          "name": "Ciprofloxacin",
+          "dosage": "250mg",
+          "frequency": "Twice daily",
+          "purpose": "UTI Treatment",
+          "prescribedBy": "Dr. James Wilson",
+          "startDate": "2023-05-20",
+          "endDate": "2023-05-27",
+          "completed": true
+        }
+      ]
+    },
+    "allergies": [
+      {
+        "type": "Medication",
+        "name": "Sulfa drugs",
+        "severity": "Moderate",
+        "reaction": "Skin rash and itching"
+      },
+      {
+        "type": "Food",
+        "name": "Shellfish",
+        "severity": "Severe",
+        "reaction": "Anaphylaxis"
+      }
+    ],
+    "healthConditions": {
+      "chronicConditions": [
+        {
+          "condition": "Hyperlipidemia",
+          "diagnosisDate": "2020-07-12",
+          "status": "Managed",
+          "treatingPhysician": "Dr. Emily Roberts"
+        },
+        {
+          "condition": "Generalized Anxiety Disorder",
+          "diagnosisDate": "2021-02-15",
+          "status": "Improving",
+          "treatingPhysician": "Dr. James Wilson"
+        }
+      ],
+      "currentSymptoms": [
+        "Occasional insomnia",
+        "Mild anxiety"
+      ]
+    },
+    "pregnancyStatus": {
+      "isPregnant": false,
+      "lastPregnancy": "2018",
+      "pregnancyHistory": {
+        "totalPregnancies": 1,
+        "liveBirths": 1
+      }
+    },
+    "doctorsInformation": {
+      "primaryCarePhysician": {
+        "name": "Dr. James Wilson",
+        "speciality": "Internal Medicine",
+        "npi": "9876543210",
+        "contact": {
+          "phone": "555-444-5555",
+          "email": "dr.wilson@healthcare.com",
+          "facility": "Portland Medical Group",
+          "address": {
+            "street": "321 Medical Plaza",
+            "city": "Portland",
+            "state": "OR",
+            "zipCode": "97201"
+          }
+        }
+      },
+      "specialists": [
+        {
+          "name": "Dr. Emily Roberts",
+          "speciality": "Cardiologist",
+          "npi": "4567891230",
+          "contact": {
+            "phone": "555-666-7777",
+            "email": "dr.roberts@heartcare.com",
+            "facility": "Heart Care Center",
+            "address": {
+              "street": "567 Cardiology Way",
+              "city": "Portland",
+              "state": "OR",
+              "zipCode": "97201"
+            }
+          }
+        }
+      ]
+    },
+    "lastPhysicalExam": "2023-12-10",
+    "bloodType": "A-",
+    "immunizations": [
+      {
+        "name": "Tdap",
+        "date": "2023-11-15",
+        "dueDate": "2033-11-15"
+      },
+      {
+        "name": "Pneumococcal",
+        "date": "2023-08-22",
+        "dueDate": "2028-08-22"
+      }
+    ]
+  }
+}

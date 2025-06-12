@@ -1,0 +1,71 @@
+{
+  "vitalSignsAnalysis": {
+    "patientId": "P789512",
+    "date": "2023-12-15",
+    "monitoringPeriod": "24 hours",
+    "abnormalReadings": {
+      "highBloodPressure": [
+        {
+          "time": "07:00",
+          "reading": "135/88",
+          "threshold": ">120/80"
+        },
+        {
+          "time": "11:00",
+          "reading": "142/92",
+          "threshold": ">120/80"
+        },
+        {
+          "time": "17:00",
+          "reading": "132/86",
+          "threshold": ">120/80"
+        }
+      ],
+      "highBloodSugar": [
+        {
+          "time": "06:00",
+          "reading": "145",
+          "threshold": ">140"
+        },
+        {
+          "time": "07:00",
+          "reading": "152",
+          "threshold": ">140"
+        },
+        {
+          "time": "16:00",
+          "reading": "142",
+          "threshold": ">140"
+        }
+      ],
+      "lowBloodSugar": [],
+      "highHeartRate": [],
+      "lowHeartRate": []
+    },
+    "summary": {
+      "bloodPressure": {
+        "average": "119/76",
+        "max": "142/92",
+        "min": "105/63",
+        "pattern": "Higher during morning and afternoon hours"
+      },
+      "bloodSugar": {
+        "average": "108.5",
+        "max": "152",
+        "min": "73",
+        "pattern": "Peaks after meals"
+      },
+      "heartRate": {
+        "average": "77.8",
+        "max": "92",
+        "min": "61",
+        "pattern": "Higher during active daytime hours, lower during sleep"
+      }
+    },
+    "recommendations": [
+      "Monitor blood pressure during morning hours",
+      "Consider dietary adjustments to manage blood sugar spikes",
+      "Continue regular monitoring of vital signs"
+    ]
+  }
+}

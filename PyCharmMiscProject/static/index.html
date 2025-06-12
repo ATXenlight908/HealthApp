@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diet Plan API</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #2c3e50;
+            margin-top: 30px;
+        }
+        .endpoint {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        .endpoint h3 {
+            margin-top: 0;
+            color: #3498db;
+        }
+        code {
+            background-color: #f1f1f1;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+        .allergy-warning {
+            background-color: #ffebee;
+            border-left: 4px solid #f44336;
+            padding: 10px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Diet Plan API</h1>
+    
+    <div class="allergy-warning">
+        <strong>ALLERGY ALERT:</strong> Patient has SEVERE shellfish allergy. All seafood recommendations exclude shellfish.
+    </div>
+    
+    <p>This API provides access to a personalized diet plan with allergy alerts for Michael Rodriguez.</p>
+    
+    <h2>Available Endpoints</h2>
+    
+    <div class="endpoint">
+        <h3>Get Full Diet Plan</h3>
+        <p><code>GET /diet-plan</code></p>
+        <p>Returns the complete diet plan including all days, meals, and nutritional information.</p>
+        <p><a href="/diet-plan">Try it</a></p>
+    </div>
+    
+    <div class="endpoint">
+        <h3>Get Daily Plan</h3>
+        <p><code>GET /diet-plan/daily/{day}</code></p>
+        <p>Returns a specific day's diet plan. Replace {day} with a number (1-7).</p>
+        <p>Example: <a href="/diet-plan/daily/1">Day 1</a> | <a href="/diet-plan/daily/2">Day 2</a></p>
+    </div>
+    
+    <div class="endpoint">
+        <h3>Get Specific Meal</h3>
+        <p><code>GET /diet-plan/meal/{day}/{meal_name}</code></p>
+        <p>Returns a specific meal from a day's diet plan.</p>
+        <p>Example: <a href="/diet-plan/meal/1/breakfast">Day 1 Breakfast</a> | <a href="/diet-plan/meal/2/lunch">Day 2 Lunch</a></p>
+    </div>
+    
+    <div class="endpoint">
+        <h3>Get Allergy Information</h3>
+        <p><code>GET /diet-plan/allergies</code></p>
+        <p>Returns allergy information and alerts from the diet plan.</p>
+        <p><a href="/diet-plan/allergies">Try it</a></p>
+    </div>
+</body>
+</html>

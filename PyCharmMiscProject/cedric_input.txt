@@ -1,0 +1,4 @@
+This is the first input text for Cedric.
+This is the second input text for Cedric.
+This is the third input text for Cedric.
+Each line in this file will be processed separately.

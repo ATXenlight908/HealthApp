@@ -1,0 +1,35 @@
+{
+  "patientVisits": {
+    "patientId": "P789512",
+    "visits": [
+      {
+        "visitId": "V12345",
+        "date": "2023-12-10",
+        "type": "Annual Physical",
+        "provider": "Dr. James Wilson",
+        "facility": "Portland Medical Group",
+        "vitalSigns": {
+          "bloodPressure": "120/80 mmHg",
+          "heartRate": "72 bpm",
+          "temperature": "98.6 F",
+          "respiratoryRate": "16 breaths/min",
+          "oxygenSaturation": "98%"
+        },
+        "notes": "Patient is in good health. Continuing current medications. Recommended increased physical activity."
+      },
+      {
+        "visitId": "V12289",
+        "date": "2023-08-15",
+        "type": "Specialist Consultation",
+        "provider": "Dr. Emily Roberts",
+        "facility": "Heart Care Center",
+        "vitalSigns": {
+          "bloodPressure": "125/82 mmHg",
+          "heartRate": "75 bpm",
+          "temperature": "98.4 F"
+        },
+        "notes": "Cholesterol levels improved. Continue with current medication regimen. Follow-up in 6 months."
+      }
+    ]
+  }
+}

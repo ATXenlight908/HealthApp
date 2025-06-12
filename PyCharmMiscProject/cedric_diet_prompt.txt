@@ -1,0 +1,9 @@
+Based on the patient's food log and health profile, please analyze their dietary intake and provide specific recommendations. Consider the following:
+
+1. Evaluate if any foods consumed may trigger or worsen the patient's allergies
+2. Assess if the current diet supports management of their chronic conditions (Hyperlipidemia and Generalized Anxiety Disorder)
+3. Analyze if the timing and composition of meals aligns with their medication schedule
+4. Suggest specific dietary adjustments or additions for the remainder of the day
+5. Recommend alternative food choices if any current items are problematic
+
+Please provide practical, specific recommendations that the patient can implement immediately.

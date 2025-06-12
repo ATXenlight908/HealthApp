@@ -1,0 +1,21 @@
+Based on the patient's health profile, current medications, vital signs, and health conditions, please generate a comprehensive 7-day diet plan in JSON format. The diet plan should:
+
+1. Support management of the patient's chronic conditions (Hyperlipidemia and Generalized Anxiety Disorder)
+2. Consider medication timing and requirements (Sertraline with breakfast, Atorvastatin at bedtime)
+3. Address blood sugar management concerns, especially during morning hours
+4. STRICTLY AVOID any allergens (particularly shellfish which is a SEVERE allergy for this patient)
+5. Include appropriate calorie and macronutrient targets based on the patient's height, weight, and health status
+6. Provide specific meal timing recommendations that align with medication schedule
+
+IMPORTANT: For each food item in the diet plan, include an "allergyAlert" field set to:
+- "SEVERE" if the food contains or may contain shellfish (patient has severe shellfish allergy)
+- "MODERATE" if the food contains or may contain sulfa drugs (patient has moderate sulfa drug allergy)
+- "NONE" if the food is safe regarding the patient's known allergies
+
+Please structure the response as valid JSON with the following format:
+- Include daily calorie and macronutrient targets
+- Provide a 7-day meal plan with breakfast, morning snack, lunch, afternoon snack, dinner, and optional evening snack
+- For each meal, include food items with portions and nutritional information (calories, protein, fat, carbs, sugar, fiber, salt)
+- Include the allergyAlert field for each food item
+- Include hydration recommendations
+- Add specific notes related to medication timing and health conditions
